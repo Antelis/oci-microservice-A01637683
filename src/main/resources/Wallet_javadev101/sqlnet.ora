@@ -1,2 +1,2 @@
-WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="?/network/admin")))
-SSL_SERVER_DN_MATCH=yes
+WALLET_LOCATION = (SOURCE = (METHOD = FILE) (METHOD_DATA = (DIRECTORY="C:\Users\Andres\Desktop\Tec\JavaClass\oci-microservice\src\main\resources\Wallet_javadev101")))
+SSL_SERVER_DN_MATCH = yes
