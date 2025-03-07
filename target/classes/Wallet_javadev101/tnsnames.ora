@@ -1,0 +1,12 @@
+javadevop101_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-queretaro-1.oraclecloud.com))(connect_data=(service_name=g10f2e5dfc4e325_javadevop101_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+javadevop101_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-queretaro-1.oraclecloud.com))(connect_data=(service_name=g10f2e5dfc4e325_javadevop101_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+javadevop101_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-queretaro-1.oraclecloud.com))(connect_data=(service_name=g10f2e5dfc4e325_javadevop101_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+javadevop101_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-queretaro-1.oraclecloud.com))(connect_data=(service_name=g10f2e5dfc4e325_javadevop101_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+javadevop101_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-queretaro-1.oraclecloud.com))(connect_data=(service_name=g10f2e5dfc4e325_javadevop101_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
