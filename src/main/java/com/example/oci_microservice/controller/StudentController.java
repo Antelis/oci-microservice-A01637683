@@ -23,6 +23,11 @@ public class StudentController {
         return studentService.getStudentById(id);
     }
 
+    @GetMapping("/studentId/{studentId}") // Add this endpoint
+    public Student getStudentByStudentId(@PathVariable String studentId) {
+        return studentService.getStudentByStudentId(studentId);
+    }
+
     @PostMapping
     public Student createStudent(@RequestBody Student student) {
         return studentService.createStudent(student);

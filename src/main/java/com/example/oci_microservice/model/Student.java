@@ -11,6 +11,8 @@ public class Student {
     private String firstName;
     private String lastName;
     private String email;
+
+    @Column(unique = true) // Ensure studentId is unique
     private String studentId;
 
     // Getters and Setters
