@@ -18,12 +18,12 @@ public class StudentController {
         return studentService.getAllStudents();
     }
 
-    @GetMapping("/{id}")
-    public Student getStudentById(@PathVariable Long id) {
-        return studentService.getStudentById(id);
-    }
+    //@GetMapping("/{studentId}")
+    //public Student getStudentById(@PathVariable Long studentId) {
+    //    return studentService.getStudentById(studentId);
+    //}
 
-    @GetMapping("/studentId/{studentId}")
+    @GetMapping("/{studentId}")
     public Student getStudentByStudentId(@PathVariable String studentId) {
         return studentService.getStudentByStudentId(studentId);
     }
